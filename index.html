@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hello,I'm Shimcy Sara Cherian.</p>
+        <img src="shimcy_pic.jpg" alt="Your Photo" style="width: 150px; height: 200px;">
+    </section>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I am a student passionate about web development and programming. Currently pursuing a degree in [Your Major] at [Your University], I have developed a strong foundation in various programming languages and frameworks.
+            </p>
+            
+            <h3>Skills</h3>
+            <p><strong>Programming Languages:</strong> Python, JavaScript, HTML, CSS</p>
+            <p><strong>Frameworks:</strong> Flask, React</p>
+            <p><strong>Tools:</strong> Git, GitHub, Visual Studio Code</p>
+            <p><strong>Soft Skills:</strong> Problem-solving, Communication, Teamwork</p>
+    
+            <h3>Background</h3>
+            <p>
+                I started my journey in technology by exploring basic programming concepts in high school. Over the years, I have worked on various projects, including a timer application in Python and several web-based applications.
+            </p>
+            
+            <h3>Interests</h3>
+            <p>
+                Outside of coding, I enjoy reading tech blogs, participating in hackathons, and contributing to open-source projects. I am also interested in learning more about artificial intelligence and machine learning.
+            </p>
+        </div>
+    </section>
+    
+            <h3>Background</h3>
+            <p>
+                I started my journey in technology by exploring basic programming concepts in high school. Over the years, I have worked on various projects, including a timer application in Python and several web-based applications. 
+            </p>
+            <h3>Interests</h3>
+            <p>
+                Outside of coding, I enjoy reading tech blogs, participating in hackathons, and contributing to open-source projects. I am also interested in learning more about artificial intelligence and machine learning.
+            </p>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1.ATM Interface using Python</h3>
+            <p>
+                A simple ATM interface built using Python. The project simulates basic ATM functionalities like balance inquiry, cash withdrawal, deposit, and transaction history. 
+                It uses Python’s OOP concepts to handle user accounts securely and efficiently.</p>
+            <a href="https://github.com/Shimcysara/Aurotech/blob/main/atm_interface.py" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2.QR Code Generator Using Python</h3>
+            <p>
+                A Python application that generates QR codes from user-provided data (e.g., URLs, text, or contact information).
+                It utilizes the <code>qrcode</code> library to create customized QR codes that can be easily saved as image files.
+                This project helped me understand how to integrate Python libraries for data encoding and image generation.
+            </p>
+            <a href="https://github.com/Shimcysara/Aurotech/blob/main/qrcode.py" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+        <h3>Python Timer Project</h3>
+        <p>
+            This Python-based timer allows users to set a countdown timer or stopwatch directly from the terminal. 
+            It includes functionalities for starting, pausing, and resetting the timer. The project was built using 
+            Python’s time library and demonstrates basic concepts like loops, functions, and user input handling.
+        </p>
+        <a href="https://github.com/Shimcysara/Aurotech/blob/main/Timer" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" id="name" required>
+                <input type="email" placeholder="Email" id="email" required>
+                <textarea placeholder="Your Message" id="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="thank-you" style="display: none;">
+                <p>Thank you for reaching out!</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
